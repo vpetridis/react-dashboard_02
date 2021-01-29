@@ -1,0 +1,29 @@
+.container {
+  background: var(--color-primary);
+  padding: 0.4em;
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: center;
+  align-items: center;
+  border-radius: 1em;
+  font-family: Open Sans;
+  font-size: 80%;
+  box-shadow: 5px 5px 8px rgba(0, 0, 0, 0.2);
+  -webkit-box-shadow: 5px 5px 8px rgba(0, 0, 0, 0.2);
+  -moz-box-shadow: 5px 5px 8px rgba(0, 0, 0, 0.5);
+}
+
+.container > h3 {
+  color: var(--fc-primary);
+  position: relative;
+}
+.container > h3::after {
+  content: '';
+  position: absolute;
+  width: 160%;
+  height: 2px;
+  bottom: -10px;
+  left: -30%;
+  color: var(--fc-primary);
+  background-color: var(--fc-primary);
+}

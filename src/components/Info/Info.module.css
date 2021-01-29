@@ -1,0 +1,15 @@
+.container {
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: flex-start;
+  align-content: space-around;
+  padding-left: 1em;
+}
+.container > h3 {
+  color: var(--color-accent);
+  font-family: var(--ff-primary);
+}
+.container p {
+  color: var(--color-accent);
+  font-family: var(--ff-primary);
+}
