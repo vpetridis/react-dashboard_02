@@ -9,7 +9,6 @@ export default function ServicesDnD(props) {
   let childrenArray = React.Children.map(children, (child) => child)
   const [items, setItems] = useState(childrenArray)
 
-
   const reorder = (list, startIndex, endIndex) => {
     const result = list
     const [removed] = result.splice(startIndex, 1)
@@ -60,7 +59,7 @@ export default function ServicesDnD(props) {
           </Droppable>
         </DragDropContext>
         <div className={styles.serviceSide}>
-          <ServiceSide  />
+          <ServiceSide />
         </div>
       </div>
     </div>

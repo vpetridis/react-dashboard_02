@@ -3,9 +3,11 @@ import styles from './ServiceComponent.module.css'
 
 export default function Calls(props) {
   return (
-    <div style={{ background: `${props.color}` }} className={styles.container}>
+    <div
+      style={{ background: `${props.color}` }}
+      className={`animate__animated animate__fadeIn ${styles.container}`}>
       <h3 className={styles.title}>Component Κλήσεων</h3>
-      <i class="fas fa-phone-volume"></i>
+      <i className="fas fa-phone-volume"></i>
     </div>
   )
 }
