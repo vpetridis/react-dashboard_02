@@ -18,18 +18,28 @@ export default function UserProfile() {
       </p>
       <p className={styles.info}>
         Για τη μετακίνηση ανάμεσα στις σελίδες χρησιμοποιήθηκε το industry standard{' '}
-        <a href="https://reactrouter.com/">React Router</a>. Η μετακίνηση από σελίδα σε σελίδα
-        γίνεται ακαριαία χωρίς να γίνεται κανένα request στον server.
+        <a href="https://reactrouter.com/" target="_blank" rel="noopener noreferrer">
+          React Router
+        </a>
+        . Η μετακίνηση από σελίδα σε σελίδα γίνεται ακαριαία χωρίς να γίνεται κανένα request στον
+        server.
       </p>
       <p className={styles.info}>
         Για την παρουσίαση των δεδομένων στον χρήστη χρησιμοποιήθηκε η πιο γνωστή βιβλιοθήκη{' '}
-        <a href="http://recharts.org/en-US">Recharts</a>
+        <a href="http://recharts.org/en-US" target="_blank" rel="noopener noreferrer">
+          Recharts
+        </a>
       </p>
       <p className={styles.info}>
         Για την επιλογή των υπηρεσιών από τους πελάτες έχει δημιουργηθεί ένα drag and drop component
         με τη βιβλιοθήκη{' '}
-        <a href="https://github.com/atlassian/react-beautiful-dnd">React-beautiful-DnD</a>. Προφανώς
-        σε κάθε αλλαγή θα μπορεί να ενημερώνετε ο server της εταιρίας.
+        <a
+          href="https://github.com/atlassian/react-beautiful-dnd"
+          target="_blank"
+          rel="noopener noreferrer">
+          React-beautiful-DnD
+        </a>
+        . Προφανώς σε κάθε αλλαγή θα μπορεί να ενημερώνετε ο server της εταιρίας.
       </p>
     </div>
   )
