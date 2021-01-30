@@ -10,3 +10,17 @@
 .info {
   color: var(--color-accent);
 }
+
+.item{
+  border: 1px solid blue;
+}
+
+.item::after {
+  content: '';
+  position: absolute;
+  bottom: -50px;
+  left: 50%;
+  height: 50px;
+  width: 2px;
+  background-color: rgb(174, 174, 174);
+}

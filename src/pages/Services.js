@@ -9,10 +9,10 @@ export default function Services() {
   return (
     <>
       <ServicesDnD>
-        <Calls />
-        <Delay />
-        <Extra />
-        <Answers />
+        <Calls color="var(--clr-services-a)" />
+        <Delay color="var(--clr-services-c)" />
+        <Extra color="var(--clr-services-b)" />
+        <Answers color="var(--clr-services-d)" />
       </ServicesDnD>
     </>
   )

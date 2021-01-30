@@ -25,6 +25,11 @@ export default function UserProfile() {
         Για την παρουσίαση των δεδομένων στον χρήστη χρησιμοποιήθηκε η πιο γνωστή βιβλιοθήκη{' '}
         <a href="http://recharts.org/en-US">Recharts</a>
       </p>
+      <p className={styles.info}>
+        Για την επιλογή των υπηρεσιών από τους πελάτες έχει δημιουργηθεί ένα drag and drop component
+        με τη βιβλιοθήκη{' '}
+        <a href="https://github.com/atlassian/react-beautiful-dnd">React-beautiful-DnD</a>
+      </p>
     </div>
   )
 }

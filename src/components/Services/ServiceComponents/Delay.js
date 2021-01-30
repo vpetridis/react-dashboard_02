@@ -1,10 +1,10 @@
 import React from 'react'
 import styles from './ServiceComponent.module.css'
 
-export default function Delay() {
+export default function Delay(props) {
   return (
-    <div className={styles.container}>
-      <h3>Delay Component</h3>
+    <div style={{background:`${props.color}`}} className={styles.container}>
+      <h3 className={styles.title}>Component Αναμονής</h3>
     </div>
   )
 }

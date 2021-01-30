@@ -2,6 +2,11 @@
   --color-primary: #33607a;
   --color-accent: #1c3848;
 
+  --clr-services-a: #fa8334;
+  --clr-services-b: #daffef;
+  --clr-services-c: #1c3848;
+  --clr-services-d: #c0c240;
+
   --fc-primary: #fcfffd;
   --fc-secondary: #daffef;
   --fc-accent-a: #fa8334;
@@ -11,8 +16,9 @@
 }
 
 .container {
-  width: 80vw;
+  width: 100vw;
   height: 100vh;
+  overflow: hidden;
   display: grid;
   grid-template-columns: 200px calc(100vw - 200px);
   grid-template-rows: auto auto;

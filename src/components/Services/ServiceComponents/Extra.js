@@ -1,10 +1,10 @@
 import React from 'react'
 import styles from './ServiceComponent.module.css'
 
-export default function Extra() {
+export default function Extra(props) {
   return (
-    <div className={styles.container}>
-      <h3>Extra Component</h3>
+    <div style={{ background: `${props.color}` }} className={styles.container}>
+      <h3 className={styles.title}>Component Έξτρα</h3>
     </div>
   )
 }

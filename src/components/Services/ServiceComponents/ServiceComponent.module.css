@@ -1,9 +1,21 @@
+
 .container {
-  border: 1px solid red;
+  position: relative;
+  margin: .2em;
+  padding: 1em;
   width: 300px;
   display: flex;
+  box-shadow: 5px 5px 8px rgba(0, 0, 0, 0.2);
+  border-radius: 5px;
 }
 
+
 .title {
-  display: inline-block;
+  text-align: center;
+}
+
+
+
+.info {
+  color: var(--color-accent);
 }

@@ -1,6 +1,7 @@
 import React, { useState } from 'react'
 import styles from './Services.module.css'
 
+
 import { DragDropContext, Droppable, Draggable } from 'react-beautiful-dnd'
 
 export default function ServicesDnD(props) {
@@ -28,12 +29,13 @@ export default function ServicesDnD(props) {
   return (
     <div className={styles.container}>
       <h3 className={styles.title}>Επιλογή Υπηρεσιών</h3>
+      <p className={styles.info}>Αναδιαμορφώστε τις υπηρεσίες VoIP μετακινώντας το ανάλογο τμήμα.</p>
       <DragDropContext onDragEnd={onDragEnd}>
-        <Droppable droppableId="droppable" direction="vertical">
+        <Droppable  droppableId="droppable" direction="vertical">
           {(provided, snapshot) => (
             <div ref={provided.innerRef} {...provided.droppableProps}>
               {items.map((item, index) => (
-                <Draggable key={item.key} draggableId={item.key} index={index}>
+                <Draggable className={styles.item} key={item.key} draggableId={item.key} index={index}>
                   {(provided, snapshot) => (
                     <div
                       ref={provided.innerRef}
