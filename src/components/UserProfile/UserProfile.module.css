@@ -1,0 +1,23 @@
+.container {
+  grid-column: 2/3;
+  grid-row: 1/-1;
+  font-family: var(--ff-primary);
+  padding: 2em;
+}
+.title {
+  color: var(--color-primary);
+}
+.info {
+  color: var(--color-accent);
+}
+
+.container a {
+  border: 1px solid var(--fc-accent-b);
+  padding: 0.2em;
+  text-decoration: none;
+  color: var(--color-accent);
+  transition: color 0.15s ease-in-out;
+}
+.container a:hover {
+  color: var(--fc-accent-a);
+}

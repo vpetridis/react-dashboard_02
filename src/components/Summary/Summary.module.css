@@ -1,0 +1,36 @@
+.summaryContainer {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  grid-row: 1/2;
+  grid-column: 1/7;
+}
+.container {
+  width: 200px;
+  height: 100px;
+  padding: 0.2em 1em;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-left: 6px solid;
+  box-shadow: 5px 5px 8px rgba(0, 0, 0, 0.2);
+  border-radius: 15px;
+}
+
+.container h3 {
+  font-size: 1rem;
+  margin: 0;
+  padding: 0;
+}
+.info {
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: space-evenly;
+}
+.title {
+  font-family: var(--ff-primary);
+}
+.money {
+  font-family: var(--ff-primary);
+
+}
