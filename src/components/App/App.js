@@ -1,5 +1,5 @@
 import React from 'react'
-import { BrowserRouter as Router, Switch, Route, Redirect } from 'react-router-dom'
+import { HashRouter, Switch, Route, Redirect } from 'react-router-dom'
 
 import Sidebar from '../Sidebar/Sidebar'
 import Dashboard from '../../pages/Dashboard'
@@ -10,16 +10,14 @@ import styles from './App.module.css'
 
 function App() {
   return (
-    <Router>
+    <HashRouter basename="/">
       <div className={styles.container}>
         <Sidebar />
-        <Switch>
-          <Route exact path="/" component={Profile} />
-          <Route exact path="/main" component={Dashboard} />
-          <Route exact path="/services" component={Services} />
-        </Switch>
+        <Route exact path="/" component={Profile} />
+        <Route exact path="/main" component={Dashboard} />
+        <Route exact path="/services" component={Services} />
       </div>
-    </Router>
+    </HashRouter>
   )
 }
 
