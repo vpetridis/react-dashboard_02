@@ -5,6 +5,7 @@ export default function Answers(props) {
   return (
     <div style={{ background: `${props.color}` }} className={styles.container}>
       <h3 className={styles.title}>Component Απαντήσεων</h3>
+      <i class="fas fa-headset"></i>
     </div>
   )
 }

@@ -1,17 +1,26 @@
 
 .container {
   position: relative;
-  margin: .2em;
+  margin: .5em;
   padding: 1em;
   width: 300px;
   display: flex;
+  justify-content: space-between;
+  align-items: center;
   box-shadow: 5px 5px 8px rgba(0, 0, 0, 0.2);
   border-radius: 5px;
+  transition: transform 0.1s ease-in-out;
 }
-
+.container:hover{
+  transform: scale(1.04)
+}
+.container i{
+  font-size: 2rem;
+}
 
 .title {
   text-align: center;
+  color: rgb(26, 26, 26);
 }
 
 

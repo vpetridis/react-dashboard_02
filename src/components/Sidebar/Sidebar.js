@@ -7,7 +7,9 @@ export default function Sidebar() {
   const [isActive, setIsActive] = useState(false)
   return (
     <div className={styles.sidebar}>
-      <img src={logoModulus} alt="logo of modulus" />
+      <a href="https://www.modulus.gr/">
+        <img src={logoModulus} alt="logo of modulus" />
+      </a>
       <ul className={styles.nav}>
         <Link exact to="/main">
           <li className={styles.navItem}>Πίνακας</li>

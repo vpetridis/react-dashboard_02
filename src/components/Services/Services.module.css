@@ -4,6 +4,16 @@
   font-family: var(--ff-primary);
   padding: 2em;
 }
+.serviceContainer {
+  display: flex;
+}
+.nav{
+margin: 3em;
+}
+.nav li{
+  margin-bottom: 1em;
+  color: var(--color-accent)
+}
 .title {
   color: var(--color-primary);
 }
