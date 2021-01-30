@@ -15,11 +15,12 @@
   --ff-primary: Open Sans, Verdana, sans-serif;
 }
 
+
 .container {
-  width: 100vw;
+  width: 80vw;
   height: 100vh;
-  overflow: hidden;
+  /* overflow: hidden; */
   display: grid;
-  grid-template-columns: 200px calc(100vw - 200px);
+  grid-template-columns: 180px calc(100vw - 200px);
   grid-template-rows: auto auto;
 }

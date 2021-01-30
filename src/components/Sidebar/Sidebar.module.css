@@ -13,7 +13,6 @@
 }
 .sidebar img {
   width: 140px;
-
   object-fit: contain;
 }
 .nav {
@@ -42,7 +41,7 @@
   position: absolute;
   align-self: center;
   justify-self: flex-end;
-  top: calc(100vh - 50px);
+  top: calc(100vh - 80px);
   color: var(--fc-primary);
   opacity: .5;
   display: flex;
