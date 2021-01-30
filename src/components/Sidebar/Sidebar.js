@@ -21,7 +21,7 @@ export default function Sidebar() {
       </ul>
       <div className={styles.info}>
         <p>Επικοινωνία</p>
-        <i class="fas fa-phone"> </i>
+        <i className="fas fa-phone"> </i>
       </div>
     </div>
   )
