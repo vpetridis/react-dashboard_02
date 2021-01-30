@@ -17,7 +17,7 @@ function App() {
           <Route exact path="/main">
             <Dashboard />
           </Route>
-          <Route exact path="/profile">
+          <Route exact path="/">
             <Profile />
           </Route>
           <Route exact path="/services">

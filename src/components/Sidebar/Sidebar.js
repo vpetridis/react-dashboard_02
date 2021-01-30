@@ -15,7 +15,7 @@ export default function Sidebar() {
         <Link to="/services">
           <li className={styles.navItem}>Λειτουργίες</li>
         </Link>
-        <Link to="/profile">
+        <Link to="/">
           <li className={styles.navItem}>Προφίλ</li>
         </Link>
       </ul>
