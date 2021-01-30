@@ -28,7 +28,8 @@ export default function UserProfile() {
       <p className={styles.info}>
         Για την επιλογή των υπηρεσιών από τους πελάτες έχει δημιουργηθεί ένα drag and drop component
         με τη βιβλιοθήκη{' '}
-        <a href="https://github.com/atlassian/react-beautiful-dnd">React-beautiful-DnD</a>
+        <a href="https://github.com/atlassian/react-beautiful-dnd">React-beautiful-DnD</a>. Προφανώς
+        σε κάθε αλλαγή θα μπορεί να ενημερώνετε ο server της εταιρίας.
       </p>
     </div>
   )
