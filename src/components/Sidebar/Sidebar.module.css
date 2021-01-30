@@ -6,7 +6,9 @@
   grid-row: 1 / -1;
   background: var(--color-accent);
   color: var(--fc-accent);
-
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: flex-start;
   position: fixed;
 }
 .sidebar img {
@@ -31,8 +33,24 @@
   font-weight: bold;
 }
 .navItem {
-  padding: .4em .2em;
+  padding: 0.4em 0.2em;
   color: var(--fc-primary);
+}
+.info {
+  width: 100%;
+  padding: 0.3em;
+  position: absolute;
+  align-self: center;
+  justify-self: flex-end;
+  top: calc(100vh - 50px);
+  color: var(--fc-primary);
+  opacity: .5;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: baseline;
+}
+.info p {
+  font-family: var(--ff-primary);
 }
 
 /* RESETTING BROWSER DEFAULTS */

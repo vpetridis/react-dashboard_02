@@ -1,9 +1,12 @@
 import React from 'react'
-import Dashboard from '../../pages/Dashboard'
-import Sidebar from '../Sidebar/Sidebar'
-import styles from './App.module.css'
 import { BrowserRouter as Router, Switch, Route } from 'react-router-dom'
+
+import Sidebar from '../Sidebar/Sidebar'
+import Dashboard from '../../pages/Dashboard'
 import Profile from '../../pages/Profile'
+import Services from '../../pages/Services'
+
+import styles from './App.module.css'
 
 function App() {
   return (
@@ -16,6 +19,9 @@ function App() {
           </Route>
           <Route exact path="/profile">
             <Profile />
+          </Route>
+          <Route exact path="/services">
+            <Services />
           </Route>
         </Switch>
       </Router>

@@ -1,0 +1,12 @@
+.container {
+  grid-column: 2/3;
+  grid-row: 1/-1;
+  font-family: var(--ff-primary);
+  padding: 2em;
+}
+.title {
+  color: var(--color-primary);
+}
+.info {
+  color: var(--color-accent);
+}
