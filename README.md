@@ -2,7 +2,8 @@
 
 This project was created for a FrontEnd Developer job-offer from modulus.gr
 
-I tried to fill in the gaps and create a dashboard with Rechart and React-Beautiful-DnD.
+I took the initiative from the job interview and built a dashboard with Rechart and React-Beautiful-DnD.
+No responsive design or mobile-first here, only a small project in a few hours.
 
 ## Demo
 
